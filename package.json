@@ -1,0 +1,37 @@
+{
+  "name": "@open-matrindex/mushroom",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "upgrade": "npm i @open-norantec/forge@latest @open-norantec/utilities@latest -S"
+  },
+  "bin": {
+    "mushroom": "./dist/cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "Package for building and publishing Matrindex Universal SHared Resources Object Oriented Modules (MUSHROOM)",
+  "dependencies": {
+    "@open-norantec/forge": "^1.0.0-alpha.36",
+    "@open-norantec/utilities": "^1.0.0-alpha.33",
+    "ajv": "^8.17.1",
+    "commander": "12.1.0",
+    "zod": "3.25.76"
+  },
+  "overrides": {
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@stylistic/eslint-plugin": "^2.12.1",
+    "@types/node": "^24.8.1",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "~5.1.3"
+  }
+}
