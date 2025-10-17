@@ -14,7 +14,7 @@
   "license": "MIT",
   "description": "Package for building and publishing Matrindex Universal SHared Resources Object Oriented Modules (MUSHROOM)",
   "dependencies": {
-    "@open-norantec/forge": "^1.0.0-alpha.36",
+    "@open-norantec/forge": "^1.0.0-alpha.37",
     "@open-norantec/utilities": "^1.0.0-alpha.33",
     "ajv": "^8.17.1",
     "commander": "12.1.0",
